@@ -33,18 +33,20 @@
     color: #212121;
     text-decoration: none;
 }
+.Studio {
+    color: #2196F3; 
+}
 .right-navigation-list li a {
      text-decoration: none;
      color: #757575;
 }
-
 .heder-navigation{
     background: #FFFFFF;
 }
 .main-section{
     background-color: #2F303A;   
 }
-.WebStudio{
+.page-logo{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -53,7 +55,6 @@
     letter-spacing: 0.03em;
     color: #000000;
 }
-
 .title-section{
     font-family: 'Roboto';
     font-style: normal;

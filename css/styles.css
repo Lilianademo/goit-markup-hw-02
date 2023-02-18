@@ -163,10 +163,10 @@ color: #2196F3;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-
-.adress-page{
+.adress-info li:hover{
     color: #FFFFFF;
 }
+
 .butons-section {
     font-family: 'Roboto';
     font-style: normal;
@@ -176,11 +176,18 @@ color: #2196F3;
     letter-spacing: 0.03em;
     color: #757575;
 }
+.butons-section button{
+    border: none;
+}
 .butons-section button:hover{
     background-color: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .butons-section button:visited{
     background-color: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .page-logo-footer {
     font-family: 'Raleway';
@@ -195,6 +202,9 @@ color: #2196F3;
 .page-logo-footer::before{
     content: "Web";
     color: #2196F3; 
+}
+.adress-info {
+    text-decoration: none;
 }
 .name-project-section{
     font-family: 'Roboto';

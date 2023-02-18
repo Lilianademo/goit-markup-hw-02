@@ -23,8 +23,14 @@
     content: "Web";
     color: #2196F3;
 }
-.navigation-list:hover a {
-    color: #2196F3; 
+.navigation-list li a :hover{
+    color: #2196F3;
+}
+.navigation-list li a:active {
+    color: #2196F3;
+}
+.navigation-list .link:visited{
+color: #2196F3;
 }
 .navigation-list li a {
     font-family: 'Roboto';
@@ -36,16 +42,16 @@
     color: #212121;
     text-decoration: none;
 }
+
 .right-navigation-list li a {
      text-decoration: none;
      color: #757575;
 }
+
 .heder-navigation{
     background: #FFFFFF;
 }
-.heder-navigation:hover{
-    color: #2196F3;
-}
+
 .main-section{
     background-color: #2F303A;   
 }
@@ -142,29 +148,24 @@
     letter-spacing: 0.03em;
     color: #757575;
 }
+.footer-section{
+    background: #2F303A;
+}
 .address-section{
  background: #2F303A;
 }
-.address-section li {
+.address-section {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.6);
 }
-.address-section{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
+
+.adress-page{
     color: #FFFFFF;
-}
-.butons-section:hover button {
-    color: #2196F3;
 }
 .butons-section {
     font-family: 'Roboto';
@@ -174,6 +175,12 @@
     line-height: 30px;
     letter-spacing: 0.03em;
     color: #757575;
+}
+.butons-section button:hover{
+    background-color: #2196F3;
+}
+.butons-section button:visited{
+    background-color: #2196F3;
 }
 .page-logo-footer {
     font-family: 'Raleway';

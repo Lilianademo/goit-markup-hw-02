@@ -23,15 +23,6 @@
     content: "Web";
     color: #2196F3;
 }
-.navigation-list li a :hover{
-    color: #2196F3;
-}
-.navigation-list li a:active {
-    color: #2196F3;
-}
-.navigation-list .link:visited{
-color: #2196F3;
-}
 .navigation-list li a {
     font-family: 'Roboto';
     font-style: normal;
@@ -51,7 +42,9 @@ color: #2196F3;
 .heder-navigation{
     background: #FFFFFF;
 }
-
+.navigation-list li :hover{
+    color: #2196F3;
+}
 .main-section{
     background-color: #2F303A;   
 }

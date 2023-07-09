@@ -6,12 +6,19 @@
     line-height: 16px;
     letter-spacing: 0.02em;
 }
+body {
+    font-family:'Roboto';
+    font-style: normal;
+}
 .unstyled-list {
     list-style: none; 
 } 
 .page-logo{
+    color: #000000; 
+}
+.page-logo,
+.page-logo-footer{
     text-decoration: none;
-    color: #000000;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -24,21 +31,17 @@
     color: #2196F3;
 }
 .navigation-list li a {
-    font-family: 'Roboto';
-    font-style: normal;
+    color: #212121;
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;
-    text-decoration: none;
+    letter-spacing: 0.02em;    
 }
-
 .right-navigation-list li a {
      text-decoration: none;
      color: #757575;
 }
-
 .heder-navigation{
     background: #FFFFFF;
 }
@@ -48,18 +51,7 @@
 .main-section{
     background-color: #2F303A;   
 }
-.page-logo{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #000000;
-}
 .title-section{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -69,8 +61,6 @@
     color: #FFFFFF;
 }
 .button-page{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -82,8 +72,6 @@
     background: #2196F3;
     }
 .subtitle-section {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -92,17 +80,14 @@
     color: #212121;    
 }
 .text-section {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #757575;
 }
-.activiti-section {
-    font-family: 'Roboto';
-    font-style: normal;
+.activiti-section,
+.our-team-section {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -111,19 +96,9 @@
     color: #212121;
 }
 .our-team-section {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
     background: #F5F4FA;
 }
 .name-section {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -132,8 +107,6 @@
     color: #212121;  
 }
 .job-title{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -148,7 +121,7 @@
  background: #2F303A;
 }
 .address-section {
-    font-family: 'Roboto';
+    font-family:'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -159,10 +132,8 @@
 .adress-info li:hover{
     color: #FFFFFF;
 }
-
-.butons-section {
-    font-family: 'Roboto';
-    font-style: normal;
+.butons-section,
+.service-section{
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -183,13 +154,6 @@
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .page-logo-footer {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    text-decoration: none;
     color: #FFFFFF;
 }
 .page-logo-footer::before{
@@ -200,20 +164,9 @@
     text-decoration: none;
 }
 .name-project-section{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
     color: #212121;   
-}
-.service-section{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-    color: #757575;
 }
